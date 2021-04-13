@@ -77,13 +77,12 @@
 
 .form-control {
   background-color: #f8f6f5;
-  border: 1px solid #9c9b9b;
+  border: none;
   border-radius: 0;
 }
 
 .form-control:focus {
-  border: 1px solid #474747;
-  /* outline: none; */
+  border: none;
   box-shadow: none;
   background-color: #fafafa;
 }
