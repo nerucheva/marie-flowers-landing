@@ -59,6 +59,12 @@
 
 .modal-header {
   border-bottom: none;
+  align-items: flex-start;
+}
+
+.modal-header .btn-close {
+  margin: 0 -0.5rem -0.5rem auto;
+  box-shadow: none !important;
 }
 
 .modal-body {
@@ -291,23 +297,13 @@
     overflow: hidden;
   }
 
+  .card-group {
+    flex-direction: column;
+  }
+
   .card-img-top {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-  }
-
-  .card-group > .card {
-    margin-bottom: 0;
-  }
-
-  .card-title {
-    text-align: left;
-  }
-
-  .card-text {
-    padding-right: 0;
-    padding-left: 0;
-    text-align: left;
   }
 
   /* .subscribe-button {
@@ -320,6 +316,30 @@
 
   .display-6 {
     margin-bottom: 1rem;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .card-group {
+    flex-flow: row wrap;
+  }
+
+  .card-group > .card {
+    margin-bottom: 0;
+  }
+
+  .card-body {
+    padding: 1.1rem 1.1rem 0 0;
+  }
+
+  .card-title {
+    text-align: left;
+  }
+
+  .card-text {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: left;
   }
 }
 
@@ -337,6 +357,13 @@
 
 @media all and (min-width: 1201px) {
   .footer {
-    margin-top: 2.9rem;
+    margin-top: 3rem;
+  }
+}
+
+@media all and (min-width: 1230px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
