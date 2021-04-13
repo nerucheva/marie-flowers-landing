@@ -44,7 +44,7 @@
   outline: none;
 }
 
-/* ************************ */
+/* ************ MODAL ************ */
 
 .modal-title {
   font-weight: 400;
@@ -115,52 +115,17 @@
   box-shadow: none;
 }
 
-.footer {
-  background-color: #eee8e4;
-  padding: 2rem 0;
-}
-
-.display-6 {
-  font-size: 1.7rem;
-  margin-bottom: 1.2rem;
-}
-
-.footer address,
-.footer address ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0;
-}
-
-.footer address ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  gap: 5px;
-}
-
-.footer ul li {
-  font-weight: 300;
-}
-
-.footer address ul li a {
-  color: #000000;
-  text-decoration: none;
-}
+/* ************ */
 
 .max-width {
+  /* global class: max-width for all the content */
   max-width: 1200px;
 }
 
-.img-logo {
-  /* height: 25px; */
-  width: 120px;
-}
+/* ************ TOP SECTION ************ */
 
 .top-section {
   padding-top: 56px;
-  /* height: 68vw; */
   height: 50vh;
   max-height: 100vh;
   background-image: url(../img/bg-img.jpg);
@@ -175,6 +140,8 @@
 .company-logo {
   height: 60%;
 }
+
+/* ************ ADVANTAGES ************ */
 
 .main-content {
   padding-top: 3rem;
@@ -241,6 +208,8 @@
   overflow: hidden;
 }
 
+/* ************ SUBSCRIBE BUTTON ************ */
+
 .subscribe-button {
   height: 50px;
   width: 200px;
@@ -261,9 +230,49 @@
   box-shadow: none;
 }
 
+/* ************ BOTTOM CAROUSEL ************ */
+
 .carousel {
   margin: 0 auto;
 }
+
+/* ************ FOOTER ************ */
+
+.footer {
+  background-color: #eee8e4;
+  padding: 2rem 0;
+}
+
+.display-6 {
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.footer address,
+.footer address ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer address ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+.footer ul li {
+  font-weight: 300;
+}
+
+.footer address ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* ************ MEDIA QUERIES ************ */
 
 @media all and (min-width: 400px) {
   .top-section {
@@ -276,6 +285,8 @@
     padding-left: 2rem;
   }
 }
+
+/* **************** */
 
 @media all and (min-width: 576px) {
   .top-section {
@@ -306,10 +317,6 @@
     border-top-right-radius: 0;
   }
 
-  /* .subscribe-button {
-    margin: 1.9rem 0 2.7rem;
-  } */
-
   .footer {
     padding: 2rem 0;
   }
@@ -318,6 +325,8 @@
     margin-bottom: 1rem;
   }
 }
+
+/* **************** */
 
 @media all and (min-width: 800px) {
   .card-group {
@@ -343,6 +352,8 @@
   }
 }
 
+/* **************** */
+
 @media all and (min-width: 992px) {
   .navbar > .container,
   .navbar > .container-fluid,
@@ -355,11 +366,15 @@
   }
 }
 
+/* **************** */
+
 @media all and (min-width: 1201px) {
   .footer {
     margin-top: 3rem;
   }
 }
+
+/* **************** */
 
 @media all and (min-width: 1230px) {
   .container-fluid {
