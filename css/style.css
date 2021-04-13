@@ -169,7 +169,7 @@
 }
 
 .card-group {
-  gap: 10px;
+  gap: 0.8rem;
 }
 
 .card-group > .card {
