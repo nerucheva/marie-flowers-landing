@@ -1,3 +1,13 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  flex-grow: 1;
+}
+
 /* ************ NAVBAR ************ */
 
 .bg-light {
@@ -245,6 +255,7 @@
 .display-6 {
   font-size: 1.7rem;
   margin-bottom: 1.2rem;
+  text-align: center;
 }
 
 .footer address,
