@@ -35,6 +35,7 @@
 
 .navbar-nav {
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .nav-item {
@@ -373,6 +374,10 @@
   .navbar > .container-xl,
   .navbar > .container-xxl {
     justify-content: center;
+  }
+
+  .navbar-nav {
+    margin-bottom: 0;
   }
 }
 
